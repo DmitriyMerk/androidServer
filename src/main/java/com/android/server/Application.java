@@ -1,10 +1,8 @@
-package om.android.server;
+package com.android.server;
 
-import om.android.server.config.WebConfig;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import com.android.server.config.WebConfig;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
-import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 

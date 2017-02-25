@@ -1,4 +1,4 @@
-package om.android.server.config;
+package com.android.server.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
