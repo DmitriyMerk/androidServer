@@ -17,6 +17,7 @@
         <spring-data.version>1.11.0.RELEASE</spring-data.version>
         <hipernate-jpa.version>5.2.8.Final</hipernate-jpa.version>
         <postgreesql.version>9.4.1212</postgreesql.version>
+        <commons-dbcp2.version>2.1.1</commons-dbcp2.version>
     </properties>
 
     <dependencies>
@@ -55,6 +56,13 @@
             <artifactId>postgresql</artifactId>
             <version>${postgreesql.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-dbcp2</artifactId>
+            <version>${commons-dbcp2.version}</version>
+        </dependency>
+
 
 
     </dependencies>
